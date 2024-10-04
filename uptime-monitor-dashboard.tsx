@@ -32,7 +32,7 @@ const UptimeMonitorDashboard = () => {
     const newMonitor = {
       id: monitors.length + 1,
       name: `New Monitor ${monitors.length + 1}`,
-      url: 'https://example.com',
+      url: 'https://github.com/saizneko46/Runiz',
       status: 'up',
     };
     setMonitors([...monitors, newMonitor]);
