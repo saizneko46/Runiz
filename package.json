@@ -1,13 +1,8 @@
 {
-  "name": "uptime-bot",
+  "name": "vercel-uptime-bot",
   "version": "1.0.0",
-  "description": "Simple website uptime monitor",
-  "main": "index.js",
+  "main": "api/ping.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "node-fetch": "^3.2.6"
+    "start": "vercel dev"
   }
 }
