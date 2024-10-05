@@ -1,6 +1,6 @@
 // Menggunakan fetch API yang didukung Vercel langsung tanpa install dependensi tambahan
 export default async function handler(req, res) {
-    const targetURL = 'https://target-website.com'; // Ganti dengan URL yang ingin Anda pantau
+    const targetURL = 'https://github.com/saizneko46/Runiz/tree/main/api'; // Ganti dengan URL yang ingin Anda pantau
 
     try {
         const response = await fetch(targetURL);
